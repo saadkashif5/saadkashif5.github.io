@@ -1,0 +1,159 @@
+.buttonn:link {
+    text-decoration: none;
+}
+
+.buttonn:visited {
+    text-decoration: none;
+}
+
+.buttonn:hover {
+    text-decoration: none;
+}
+
+hr {
+	border-color: transparent;
+}
+
+body, html {
+    background: url(back8.png) no-repeat;
+    font-family: 'Kanit', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.buttonn {
+    color: #212529;
+}
+
+h1,h4 {
+    color: white;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+h1:hover {
+    color: navajowhite;
+}
+
+.btn {
+    border-radius: 25px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 120vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #212529;
+  color: white;
+}
+
+/*.container {
+  position: relative;
+}*/
+
+.logo { 
+  width: 15%;
+  height: auto;
+  opacity: 1;
+}
+
+/*.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}*/
+
+
+
+
+/* Style the header with a grey background and some padding */
+.header {
+    z-index: 1;
+  overflow: hidden;
+  background-color: black;
+  padding: 8px 8px;
+  position: sticky;
+    top: 0;
+}
+
+/* Style the header links */
+.header a:not(.head1) {
+  float: left;
+  color: white;
+  text-align: center;
+/*  padding: 8px;*/
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 18px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+/*  font-weight: bold;*/
+}
+
+/* Change the background color on mouse-over */
+.header a:hover:not(.head1)
+{
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active{
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+/*.header-right{
+  float: right;
+}*/
+
+
+@@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    background-color: #291d89;
+}
+
+svg {
+    width: 100%;
+    height: 100vh;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#base {
+    cursor: pointer;
+}
+
+.head
+{
+    text-align: right;
+}
