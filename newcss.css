@@ -747,3 +747,10 @@ meter::-webkit-meter-optimum-value{
 
 
 
+.downloadapk {
+    color: #fff;
+}
+
+.downloadapk:hover {
+    color: #cfff04;
+}
